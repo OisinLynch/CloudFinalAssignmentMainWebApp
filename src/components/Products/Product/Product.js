@@ -20,7 +20,7 @@ const Product = ({product, onAddToCart}) => {
             {product.name}
             </Typography>
             <Typography variant="h6" color="secondary">
-              ₹<b>{product.price.formatted}</b> 
+            €<b>{product.price.formatted}</b> 
             </Typography>
           </div>
         </CardContent>

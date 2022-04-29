@@ -15,7 +15,7 @@ const Navbar = ({totalItems}) => {
         <Toolbar>
           <Typography component={Link} to="/" variant="h5" className={classes.title} color="inherit">
             <img src={logo} alt="Book Store App" height="50px" className={classes.image} /> 
-              <strong >BooK-IT</strong> 
+              <strong >Cloud BooK Store</strong> 
           </Typography>
 
             <div className={classes.grow} />
